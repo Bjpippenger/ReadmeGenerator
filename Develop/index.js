@@ -39,13 +39,7 @@ const questions = [
     name: 'Questions',
     message: 'Point of contact for users or potential contributors',
   },
-  // Add more questions for other sections of the README
-  // Example:
-  // {
-  //   type: 'input',
-  //   name: 'installation',
-  //   message: 'Provide installation instructions:',
-  // },
+
 ];
 
 // Function to write README file
