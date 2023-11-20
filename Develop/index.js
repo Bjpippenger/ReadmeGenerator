@@ -6,13 +6,38 @@ const generateMarkdown = require('./generateMarkdown');
 const questions = [
   {
     type: 'input',
-    name: 'title',
+    name: 'Title',
     message: 'What is the title of your project?',
   },
   {
     type: 'input',
-    name: 'description',
+    name: 'Description',
     message: 'Provide a description of your project:',
+  },
+  {
+    type: 'input',
+    name: 'Installation',
+    message: 'Provide installation instructions for your project',
+  },
+  {
+    type: 'input',
+    name: 'Usage',
+    message: 'Include information about how to run your application',
+  },
+  {
+    type: 'input',
+    name: 'Contributing',
+    message: 'Provide information for future contributors to understand how they can get involved',
+  },
+  {
+    type: 'input',
+    name: 'Tests',
+    message: 'Information about the testing process and how to run tests for the project',
+  },
+  {
+    type: 'input',
+    name: 'Questions',
+    message: 'Point of contact for users or potential contributors',
   },
   // Add more questions for other sections of the README
   // Example:
