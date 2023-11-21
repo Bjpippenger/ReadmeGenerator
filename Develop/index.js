@@ -6,39 +6,39 @@ const generateMarkdown = require("./generateMarkdown");
 const questions = [
   {
     type: "input",
-    name: "Title",
+    name: "title",
     message: "What is the title of your project?",
   },
   {
     type: "input",
-    name: "Description",
+    name: "description",
     message: "Provide a description of your project:",
   },
   {
     type: "input",
-    name: "Installation",
+    name: "installation",
     message: "Provide installation instructions for your project",
   },
   {
     type: "input",
-    name: "Usage",
+    name: "usage",
     message: "Include information about how to run your application",
   },
   {
     type: "input",
-    name: "Contributing",
+    name: "contributing",
     message:
       "Provide information for future contributors to understand how they can get involved",
   },
   {
     type: "input",
-    name: "Tests",
+    name: "tests",
     message:
       "Information about the testing process and how to run tests for the project",
   },
   {
     type: "input",
-    name: "Questions",
+    name: "questions",
     message: "Point of contact for users or potential contributors",
   },
 ];
